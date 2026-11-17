@@ -1,0 +1,13 @@
+name: Git_Action
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  Action:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Nitish Singh
+      run: echo "New_Action"
